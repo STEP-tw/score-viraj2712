@@ -42,3 +42,8 @@ const drawFood=function(food) {
   else
   paintCell(food.getPosition(),"food");
 }
+
+const displayScore = function(playerScore){
+  let score = document.getElementById('score');
+  score.innerText = `SCORE : ${playerScore}`;
+}
