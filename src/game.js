@@ -57,3 +57,7 @@ Game.prototype.createFood=function() {
   }
   this.food=new Food(position,growthFactor,superFood);
 }
+
+Game.prototype.updateScore = function(){
+  return this.score += 10;
+}
