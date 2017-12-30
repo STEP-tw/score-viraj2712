@@ -12,6 +12,8 @@ const animateSnake=function() {
   paintHead(details.head);
   if(game.hasSnakeEatenFood()) {
     game.grow();
+    game.updateScore();
+    displayScore(game.score);
     game.createFood();
     drawFood(game.getFood());
   }

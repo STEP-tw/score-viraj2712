@@ -59,5 +59,5 @@ Game.prototype.createFood=function() {
 }
 
 Game.prototype.updateScore = function(){
-  return this.score += 10;
+  this.score += 10;
 }
