@@ -25,6 +25,7 @@
   border-radius: 50%;
 }
 
-#score {
-  text-align: center;
+.super-food {
+  background-color: green;
+  border-radius: 50%;
 }
